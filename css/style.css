@@ -1,0 +1,117 @@
+#Home a{
+  color: azure;
+  transition: 1s;
+}
+
+#Home a:hover{
+  color: red;
+  transition: 1s ;
+}
+
+#Contactus a{
+    clip-path: polygon(8% 0, 100% 0, 100% 20%, 100% 80%, 92% 100%, 0 100%, 0% 80%, 0% 20%);
+    color: red;
+    transition: 2s;
+}
+
+#Contactus a:hover{
+    clip-path: polygon(0 0, 92% 0, 100% 20%, 100% 80%, 100% 100%, 8% 100%, 0% 80%, 0% 20%);
+    color: azure;
+    transition: 1s;
+}
+
+#HomeCarousel{
+    max-height: 800px; 
+    align-items: center; 
+    width: 1477px;
+}
+
+.offcanvas-top {
+    top: 0;
+      transform: translate3d(0, -100%, 0);
+      transition: transform 0.3s ease;
+    }
+    .offcanvas.show {
+      transform: translate3d(0, 0, 0);
+    }
+
+
+.card {
+    position: relative;
+    display: inline-block;
+    }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity as desired */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    }
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container{
+  display: flex;
+}
+
+#homepagesection3{
+  flex-shrink: 0;
+  margin-right: 10px;
+  align-items: right;
+}
+
+.footer{
+  color: azure;
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+#homesection4{
+  color: teal;
+}
+
+#footer1, #footer2, #footer3, #footer4{
+  color: azure;
+}
+
+.center {
+  top: 50%;
+  bottom: 50%;
+  right: 50%;
+  
+}
+
+.title-text {
+  color: green;
+  margin-left: 40%;
+  align-content: center;
+}
+
+.location {
+  max-width: fit-content;
+}
